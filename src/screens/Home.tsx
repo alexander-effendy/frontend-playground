@@ -1,6 +1,11 @@
+import Sidebar from "../component/Sidebar";
+import HomeContent from "../component/HomeContent";
 const Home = () => {
   return (
-    <div>This is home</div>
+    <div className="h-screen w-screen flex">
+      <Sidebar />
+      <HomeContent />
+    </div>
   )
 };
 
